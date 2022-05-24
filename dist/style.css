@@ -1,0 +1,27 @@
+body {
+    background-color: rgb(199, 197, 194);
+
+}
+.players-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+.player-box {
+    display: grid;
+    background-color: orange;
+    text-align: center;
+    -webkit-box-shadow: -3px 6px 2px -4px rgba(0,0,0,0.75);
+    -moz-box-shadow: -3px 6px 2px -4px rgba(0,0,0,0.75);
+    box-shadow: -3px 6px 2px -4px rgba(0,0,0,0.75);
+}
+
+img {
+    background-color: rgb(199, 197, 194);
+    box-shadow: 2px 2px;
+
+}
+input { 
+    width: 90%;
+}
